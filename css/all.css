@@ -1,0 +1,762 @@
+html,body{
+	width: 100%;
+	background-color: rgb(245,245,245);
+}
+#all{
+	width: 100%;
+	overflow: hidden;
+	min-width: 320px;
+	font-size: 16px!important;
+}
+#all>div{
+	background-color: white;
+}
+#nav{
+	width: 100%;
+	height: 44px;
+	background-color: #c51920!important;
+	overflow: hidden;
+	color: #fff;
+	position: fixed;
+	z-index: 10;
+}
+#nav-left{
+	float: left;
+	height: 100%;
+}
+#nav-left>img{
+	height: 70%;
+	vertical-align: middle;
+	margin-left: 1.5em;
+	margin-right: 0.7em;
+}
+#nav-left span{
+	font-size: 0.75em;
+	vertical-align: middle;
+}
+#nav-left span:last-child>img{
+	width:10px;
+	height: 6px;
+}
+#nav-left:after{
+	display: inline-block;
+	content: "";
+	height: 100%;
+	vertical-align: middle;
+}
+#nav-right{
+	float: right;
+	height: 100%;
+	font-size: 0.7em;
+}
+#nav-right>span{
+	display: inline-block;
+	width: 24px;
+	height: 100%;
+	margin: 0 4px;
+	position: relative;
+	background-position: 0 4px;
+	background-size: 21px 21px;
+	background-repeat: no-repeat;
+}
+#nav-right>span:first-of-type{
+	background-image: url(../img/nav_right1.png);
+}
+#nav-right>span:last-of-type{
+	background-image: url(../img/nav_right2.png);
+}
+#nav-right>span>em{
+	position: absolute;
+	bottom: 4px;
+}
+#top{
+	margin-top: 44px;
+}
+#top>div>div.swiper-slide>img{
+	width: 100%;
+}
+.swiper-pagination-bullet-active {
+    background: #fa4e3e!important;
+}
+#select{
+    padding: 6px 10px;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(237,237,237);
+}
+#select>div{
+    float: left;
+    width: 25%;
+    position: relative;
+	text-align: center;
+	padding-top: 6px;
+}
+#select>div:nth-of-type(2)>div{
+    background-position: 0 13.85%;
+}
+#select>div:nth-of-type(3)>div{
+    background-position: 0 27.55%;
+}
+#select>div:nth-of-type(4)>div{
+    background-position: 0 41.4%;
+}
+#select>div:nth-of-type(5)>div{
+    background-position: 0 55.2%;
+}
+#select>div:nth-of-type(6)>div{
+    background-position: 0 69.05%;
+}
+#select>div:nth-of-type(7)>div{
+    background-position: 0 82.75%;
+}
+#select>div:nth-of-type(8)>div{
+    background-position: 0 96.55%;
+}
+#select>div>div{
+	width:60%;
+	padding-bottom: 61%;
+	background-image: url(../img/select.png);
+	background-size: 100% auto;
+	margin: 0 auto;
+}
+#select>div>span{
+	font-size: 0.85em;
+	line-height: 30px;
+}
+#select>div>img{
+	width: 17%;
+	height: 20%;
+	position: absolute;
+	right: 0;
+	top: 0.5em;
+}
+#much{
+	margin: 20px 0 10px 0;
+	padding: 0 10px;
+    border-top: 1px solid #ffb84e;
+    border-bottom: 1px solid #ffb84e;
+}
+#much>p{
+	font-size: 1.05em;
+	line-height: 3em;
+	color: #333333;
+	text-align: center;
+	border-bottom: 1px solid rgb(253,253,253);
+}
+#much>p>img{
+    width: 18px;
+    height: 20px;
+    padding-right: 0.2em;
+}
+#much>span{
+	width: 50%;
+    float: left;
+    text-align: center;
+    line-height: 2em;
+}
+#much>span>input{
+	-webkit-appearance: none;
+	display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #cccccc; 
+    vertical-align: middle;
+    margin-top: -2px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-right: 6px;
+    outline: 0;
+}
+#much>span>input:checked{
+	background-color: #fa4e3e;
+	background-image: url(../img/much_1.png);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.clear{
+	clear: both;
+}
+#much-text{
+	position: relative;
+	z-index: 2;
+}
+#much-text>input{
+	width: 100%;
+	height: 2.5em;
+	line-height: 2.5em;
+	margin: 0 auto;
+	border: 1px solid gainsboro;
+	text-indent: 0.5em;
+	outline: none;
+}
+#much-text>span{
+	position: absolute;
+	right: 8px;
+	top: 1em;
+}
+#much>select{
+	float: left;
+	width: 49%;
+	height: 2.5em;
+	margin: 10px 0;
+	-webkit-appearance: none;
+	background-image: url(../img/much_2.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	text-indent: 5px;
+}
+#much>select>option{
+	font-size: 12px;
+}
+#much>select:last-of-type{
+	float: right;
+}
+#much>button{
+	width: 100%;
+	height: 2.5em;
+	line-height: 2.5em;
+	color: white;
+	background-color: #fa4e3e;
+	outline: none;
+	border: none;
+}
+#call{
+	height: 42px;
+	position: relative;
+}
+#call>img{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 14px;
+}
+#call>ul{
+	text-indent:24px;
+}
+#call>ul>li{
+	line-height: 42px;
+	font-size: 14px;
+}
+#scroll>p{
+	line-height: 36px;
+    color: #333;
+    font-weight: bold;
+   
+    text-indent: 1em;
+}
+#scroll{
+	margin-bottom: 10px;
+	background-color:rgb(245,245,245)!important;	
+}
+#scroll>div>div>img{
+    border-left: 1px solid #dedede;
+    width: 100%;
+}
+
+#pic{
+	position: relative;
+}
+/*标题:装修效果图/参观工地/家居商城/装修攻略/装修问答/体验馆*/
+/*pic和visit下面的P都一样*/
+.til{
+	line-height: 40px;
+    color: #333;
+    font-weight: bold;
+    background-color:rgb(245,245,245);
+    text-indent: 10px;
+    font-size: 1.1em;
+}
+#pic>ul{
+	position: absolute;
+	right: 10px;
+	top: 0px;
+}
+#pic>ul>li{
+	height: 36px;
+	width: 32px;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	font-size: 0.875em;
+	margin-left: 15px;
+	background:none;
+	border-radius: 0;
+    color: #333;
+}
+#pic .my-pagination .swiper-pagination-bullet-active{
+	background: none!important;
+	color:red;
+	border-bottom: 2px solid red;
+}
+#pic-wrap{
+	margin-bottom: 20px;
+}
+.pic-inner{
+	overflow: hidden;
+}
+.pic-inner>div{
+	float: left;
+	width: 46%;
+	position: relative;
+	margin-left: 2.5%;
+	margin-top: 2.5%;
+}
+.pic-inner>div>img{
+	width: 100%;
+}
+.pic-inner>div>span{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	line-height: 24px;
+	font-size: 14px;
+	color: white;
+	text-indent: 8px;
+	background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,1));
+}
+/*按钮样式：跟下面的模块是一样的*/
+.btn{
+	width: 46%;
+	margin-left: 2.5%;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 15px;
+	border: none;
+	outline: none;
+    border-radius: 4px;
+    background-color: rgb(242,242,242);
+    border: 1px solid #dedede;
+}
+.btn>span{
+	display: inline-block;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+    background-position: 0 0;
+    margin-left: 5px;
+    background-image: url(../img/otherions.png);
+    background-size: 19px;
+}
+.btn:last-of-type{
+	color: rgb(250,78,62);
+}
+.btn:last-of-type>span{
+	background-position: 0 -26px;
+}
+/*按钮样式结束分界线*/
+#visit{
+	margin-top: 10px;
+}
+#visit>div:first-of-type{
+	width: 96%;
+	padding-bottom: 62%;
+	margin: 2% auto;
+	position: relative;
+	background-image: url(../img/visit.jpg);
+	background-size: 100%;
+}
+#visit>div:first-of-type>span{
+	position: absolute;
+    top: 10px;
+    padding: 0 10px;
+    background: #fa4e3e;
+    color: #fff;
+    font-size: 9px;
+    line-height: 17px;
+}
+#visit>div:last-of-type{
+	margin: 0 2%;
+	font-size: 14px;
+    line-height: 40px;
+    color: #444444;;
+}
+#visit>div:last-of-type>span{
+	float: right;
+    color: #42bde8;
+    font-size: 12px;
+    
+}
+#visit>div:last-of-type>span>em{
+	display: inline-block;
+	vertical-align: middle;
+	width: 19px;
+	height: 19px;
+	background-image: url(../img/otherions.png);
+    background-size: 100%;
+    background-position: 0 -49px;
+}
+#circle{
+	background-color: #f2f2f2!important;
+	padding: 10px 0;
+	font-size: 14px;
+}
+#circle div.swiper-slide{
+	margin: 0 10px;
+	width: 18.5%;
+	background-color: white;
+	border-radius: 50%;
+}
+#circle div.swiper-slide>div{
+	position: absolute;
+	text-align: center;
+	top: 28%;
+	width: 100%;
+}
+#circle div.swiper-slide>div>span{
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background-image: url(../img/otherions.png);
+	background-size: 100%;
+	background-position: 0 -77px;
+}
+/*div:家居商城/装修攻略*/
+.sandt{
+	margin-top: 10px;
+}
+/*按钮：家居商城/装修攻略*/
+.sandt>button{
+	height: 40px;
+	width: 46%;
+	margin: 2% 0 0 2%;
+	line-height: 40px;
+	border: none;
+	outline: none;
+    border-radius: 4px;
+    background-color: rgb(242,242,242);
+    border: 1px solid #dedede;
+}
+.sandt>button:last-of-type{
+	margin-bottom: 15px;
+}
+.sandt>button>span{
+	display: inline-block;
+	width: 22px;
+	height: 18px;
+	background-image: url(../img/otherions.png);
+	background-size: 100%;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.sandt>button:after{
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+/*家居商城图片展示*/
+#shop div,#shop-under div{
+	float: left;
+}
+#shop>div:first-of-type,#shop>div:nth-of-type(2)>div,#shop>div:nth-of-type(3)>div,#shop-under{
+	-webkit-box-sizing: border-box;   
+	border: 1px solid #dedede;
+}
+#shop,#shop-under{
+	overflow: hidden;
+}
+#shop div>a,#shop-under div>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+}
+#shop>div:nth-of-type(1),#shop>div:nth-of-type(2){
+	width:50%;
+}
+#shop>div:nth-of-type(1)>a{
+	padding-bottom: 96%;
+}
+#shop>div:nth-of-type(2)>div{
+	width: 100%;
+}
+#shop>div:nth-of-type(2)>div>a{
+	padding-bottom: 48%;
+}
+#shop>div:nth-of-type(3){
+	width: 100%;
+}
+#shop>div:nth-of-type(3)>div{
+	width:33.33%;
+}
+#shop>div:nth-of-type(3)>div>a{
+	padding-bottom: 98%;
+}
+#shop-under{
+	width: 100%;
+}
+#shop-under>div{
+	width: 47%;
+	margin: 2% 0 2% 2%;
+}
+#shop-under>div>a{
+	padding-bottom: 56.2%
+}
+
+#sandt-body>div{
+	width: 100%;
+	overflow: hidden;
+	padding: 10px;
+	border:1px solid #dedede; 
+}
+#sandt-body>div:last-of-type{
+	margin-bottom: 15px;
+}
+#sandt-body>div>img:nth-child(n){
+	float: left;
+}
+#sandt-body>div>img{
+    height: 67px;
+    width: 100px;
+    margin-right: 15px;
+}
+#sandt-body>div>p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #444444;
+    padding-bottom: 3px;
+}
+#sandt-body>div>span{
+	font-size: 12px;
+    line-height: 18px;
+    color: #aaaaaa;
+}
+/*装修前中后三个圆*/
+#three{
+    padding: 20px 10px 12px;
+    overflow: hidden;
+}
+#three>img{
+	width: 100%;
+}
+#three>span{
+	float: left;
+	text-align: center;
+    font-size: 16px;
+    line-height: 36px;
+}
+#three>span:nth-of-type(1){
+	width: 25%;
+}
+#three>span:nth-of-type(2){
+	width: 50%;
+}
+#three>span:nth-of-type(3){
+	width: 25%;
+}
+/*装修问答*/
+#question>div:first-of-type{
+	margin-top: 10px;
+}
+#question>div:first-of-type>span{
+	float: right;
+    color: #42bde8;
+    line-height: 36px;
+    font-size: 12px;
+    padding-right: 10px;
+}
+#question>div:nth-of-type(2){
+	padding: 15px 10px;
+	position: relative;
+    border-top: 1px dotted #cccccc;
+    border-bottom: 1px dotted #cccccc;
+}
+#question>div:nth-of-type(2)>input{
+	width: 100%;
+	height: 40px;
+    border: 1px solid #dedede;
+    background-color: #dedede;
+}
+#question>div:nth-of-type(2)>span{
+	position: absolute;
+	left: 30px;
+	top: 0;
+	line-height: 70px;
+    font-size: 13px;
+    color: #999999;
+}
+#question>div:nth-of-type(2) img{
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+#question>div:nth-of-type(n+3){
+    border-bottom: 1px solid #cccccc;
+	padding: 10px 15px;
+}
+#question>div:nth-of-type(n+3)>p{
+	font-size: 14px;
+    line-height: 28px;
+    color: #444444;
+}
+#question>div:nth-of-type(n+3)>span:nth-of-type(1)>em{
+    display: inline-block;
+    width: 0;
+    content: "";
+    border: 4px solid transparent;
+    border-left-color: #cccccc;
+    padding-right: 4px;
+}
+#question>div:nth-of-type(n+3)>span:nth-of-type(1){
+	font-size: 12px;
+    line-height: 24px;
+    color: #aaaaaa;
+}
+#question>div:nth-of-type(n+3)>span:nth-of-type(2){
+	font-size: 12px;
+    line-height: 24px;
+    color: #fa4e3e;
+    float: right;
+}
+#question>div:last-of-type{
+	margin-bottom: 15px;
+}
+/*2个广告图片*/
+.a-d{
+	width: 100%;
+}
+/*体验馆*/
+#enjoy>p{
+	margin-top: 10px;
+}
+#enjoy>div{
+	padding: 0 10px 10px 15px;
+	overflow: hidden;
+	position: relative;
+}
+#enjoy>div>p{
+	font-size: 16px;
+    line-height: 40px;
+    color: #333;
+    display: block;
+}
+#enjoy>div>img{
+	float: left;
+    width: 110px;
+    height: 74px;
+    margin-right: 10px;
+}
+#enjoy>div>ul{
+	float: left;
+}
+#enjoy>div li{
+    font-size: 12px;
+    line-height: 17px;
+    color: #999999;
+    padding-top: 3px;
+}
+#enjoy>div>span{
+    position: absolute;
+    top: 11px;
+    right: 15px;
+	border:1px solid #fa4e3e;
+    border-radius: 4px;
+    font-size: 9px;
+    line-height: 17px;
+    color: #fa4e3e;
+    padding: 0 4px;
+}
+/*一号家新闻*/
+#new>p{
+	margin-top: 10px;
+}
+#new ul{
+	border-bottom: 1px solid #dedede;
+	padding: 10px 15px;
+}
+#new li{
+	font-size: 14px;
+    line-height: 27px;
+    color: #444444;
+    overflow: hidden;
+}
+#new li>span{
+	float: right;
+    color: #999999;
+}
+#new li>em{
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 2px;
+    height: 2px;
+    background: #bfbfbf;
+    margin-right: 5px;
+}
+#new>button{
+	width: 96%;
+	margin-top: 15px;
+}
+/*底部*/
+#foot{
+	padding: 25px 0 15px 0;
+	text-align: center;
+	background-color: rgb(248,248,248)!important;
+}
+#foot span{
+	display: inline-block;
+	font-size: 0.75rem;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    line-height: 25px;
+    color: #666666;
+    height: 25px;
+}
+#foot>div>span{
+	padding: 0 20px;
+	vertical-align: middle;
+}
+#foot>span:nth-of-type(1){
+	margin: 8px auto;
+	padding: 0 35px;
+    color: #aaaaaa;
+    height: 30px;
+	line-height: 30px;
+}
+#foot>span:nth-of-type(1)>em{
+    color: #fa4e3e;
+}
+#foot>span:nth-of-type(1)>i{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-image: url(../img/foot_1.png);
+	background-size: 100% 100%;
+	margin-right: 5px;
+}
+#foot>p{
+    font-size: 0.625rem;
+    color: #aaaaaa;
+    line-height: 1.4;
+}
+#foot>strong{
+	line-height: 24px;
+    color: #30b2f2;
+    font-size: .75rem;
+    font-weight: normal;
+    height: 24px;
+    vertical-align: middle;
+}
+#foot>i{
+    display: inline-block;
+    width: 16px;
+    height: 24px;
+   	background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+}
+#foot>i:first-of-type{
+	background-image: url(../img/foot_2.png);
+    background-size: 16px 12px;
+}
+#foot>i:last-of-type{
+	background-image: url(../img/foot_3.png);
+    background-size: 8px 12px;
+}
+#foot>sup>img{
+	width: 16px;
+	height: 16px;
+}

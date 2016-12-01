@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/all.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<script src="js/jquery-1.12.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		
+	</head>
+	<body>
+	<div id="all">
+		<!--置顶-->
+		<div id="nav">
+			<div id="nav-left">
+				<img src="img/logo.png"/>
+				<span>全国</span>
+				<span><img src="img/nav_left.png"/></span>
+			</div>
+			<div id="nav-right">
+				<span><em>登录</em></span>
+				<span><em>导航</em></span>
+			</div>
+		</div>
+		<!--设置轮播图-->
+		<div id="top" class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/top_1.jpg"/></div>
+		        <div class="swiper-slide"><img src="img/top_2.jpg"/></div>
+		        <div class="swiper-slide"><img src="img/top_3.jpg"/></div>
+		        <div class="swiper-slide"><img src="img/top_4.jpg"/></div>
+		        <div class="swiper-slide"><img src="img/top_5.jpg"/></div>
+			</div>
+	        <div class="swiper-pagination"></div>
+		</div>
+		<!--8个正方选项-->
+		<div id="select">
+			<div>
+				<div></div>
+				<span>装修预算</span>
+				<img src="img/select2.gif"/>
+			</div>
+			<div>
+				<div></div>
+				<span>效果图</span>
+			</div>
+			<div>
+				<div></div>
+				<span>设计师</span>
+			</div>
+			<div>
+				<div></div>
+				<span>参观工地</span>
+			</div>
+			<div>
+				<div></div>
+				<span>装修攻略</span>
+			</div>
+			<div>
+				<div></div>
+				<span>家装馆</span>
+			</div>
+			<div>
+				<div></div>
+				<span>家居商城</span>
+				<img src="img/select1.gif"/>
+			</div>
+			<div>
+				<div></div>
+				<span>体验馆</span>
+			</div>
+		</div>
+		<!--算算装修多少钱-->
+		<div id="much">
+			<p><img src="img/much.png"/>算算你家装修多少钱？</p>
+			<span>
+				<input type="radio" name="house" checked="true"/>新房
+			</span>
+			<span>
+				<input type="radio" name="house"/>旧房
+			</span>
+			<div class="clear"></div>
+			<div id="much-text">
+				<input type="text" placeholder="请输入面积"/>
+				<span>㎡</span>
+			</div>
+			<select name="">
+				<option value="">请选择风格</option>
+				<option value="">现代简约</option>
+				<option value="">中式</option>
+				<option value="">田园</option>
+				<option value="">混搭风格</option>
+				<option value="">美式乡村</option>
+				<option value="">新古典</option>
+			</select>
+			<select name="">
+				<option value="">请选择档次</option>
+				<option value="">经济环保</option>
+				<option value="">中档宜居</option>
+				<option value="">高档豪华</option>
+				<option value="">豪装奢华</option>
+			</select>
+			<div class="clear"></div>
+			<button>1秒拿报价清单</button>
+			<div id="call" class="swiper-container">
+				<img src="img/call.png"/>
+				<ul class="swiper-wrapper swiper-no-swiping">
+					<li class="swiper-slide">足不出户装出豪宅，装修费用狂省35%！</li>
+					<li class="swiper-slide">8万装修的房子，看上去像花了18万！</li>
+					<li class="swiper-slide">10秒获取精准报价，装修0猫腻！</li>
+				</ul>
+			</div>
+		</div>
+		<!--热门活动-->
+		<div id="scroll" class="swiper-container">
+			<p>热门活动</p>
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/scroll1.png"/></div>
+				<div class="swiper-slide"><img src="img/scroll2.png"/></div>
+				<div class="swiper-slide"><img src="img/scroll3.png"/></div>
+				<div class="swiper-slide"><img src="img/scroll4.png"/></div>
+			</div>
+		</div>
+		<!--装修效果图-->
+		<div id="pic" class="swiper-container">
+			<p class="til">装修效果图</p>
+			<ul class="my-pagination">
+				<!--<li>风格</li>
+				<li>户型</li>-->
+				&nbsp;
+			</ul>
+			<div id="pic-wrap" class="swiper-wrapper">
+				<div class="pic-inner swiper-slide">
+					<div>
+						<img src="img/pic_1.jpg"/>
+						<span>美式乡村119方三房...</span>
+					</div>
+					<div>
+						<img src="img/pic_2.jpg"/>
+						<span>新古典清新效果图</span>
+					</div>
+					<div>
+						<img src="img/pic_3.jpg"/>
+						<span>地中海136方三房二...</span>
+					</div>
+					<div>
+						<img src="img/pic_4.jpg"/>
+						<span>现代简约96方三房二...</span>
+					</div>
+				</div>
+				<div class="pic-inner swiper-slide">
+					<div>
+						<img src="img/pic_5.jpg"/>
+						<span>现代简约65方两房二...</span>
+					</div>
+					<div>
+						<img src="img/pic_6.jpg"/>
+						<span>85平方三室两厅现代...</span>
+					</div>
+					<div>
+						<img src="img/pic_7.jpg"/>
+						<span>110平美式乡村设计...</span>
+					</div>
+					<div>
+						<img src="img/pic_8.jpg"/>
+						<span>现代简约89方二房二...</span>
+					</div>
+				</div>
+			</div>
+			<button class="btn">换一批<span></span></button>
+			<button class="btn">更多效果图<span></span></button>
+		</div>
+		<!--参观工地-->
+		<div id="visit">
+			<p class="til">参观工地</p>
+			<div>
+				<span>完工阶段</span>
+			</div>
+			<div>三室一厅 6.5万元 大全包 
+				<span><em></em>67图</span>
+			</div>
+			<button class="btn">换一批<span></span></button>
+			<button class="btn">更多在施工地<span></span></button>
+		</div>
+		<!--白色圆圈滑动-->
+		<div id="circle" class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div>
+						<span></span>
+						<p>开工大吉</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div>
+						<span></span>
+						<p>水电工程</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div>
+						<span></span>
+						<p>瓦工工程</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div>
+						<span></span>
+						<p>木工工程</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div>
+						<span></span>
+						<p>油漆工程</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div>
+						<span></span>
+						<p>安装工程</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div>
+						<span></span>
+						<p>竣工工程</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--家居商城-->
+		<div class="sandt">
+			<div class="til">家居商城</div>
+			<button><span></span>全部分类</button>
+			<button><span></span>家装馆</button>
+			<button><span></span>家具城</button>
+			<button><span></span>家电城</button>
+			<button><span></span>家饰城</button>
+			<button><span></span>建材城</button>
+			<div id="shop">
+				<div><a href=""></a></div>
+				<div>
+					<div><a href=""></a></div>
+					<div><a href=""></a></div>
+				</div>
+				<div>
+					<div><a href=""></a></div>
+					<div><a href=""></a></div>
+					<div><a href=""></a></div>
+				</div>
+			</div>
+			<div id="shop-under">
+				<div><a href=""></a></div>
+				<div><a href=""></a></div>
+			</div>
+		</div>
+		<!--装修攻略-->
+		<div class="sandt">
+			<div class="til">装修攻略</div>
+			<button><span></span>装修知识</button>
+			<button><span></span>装修流程</button>
+			<button><span></span>设计攻略</button>
+			<button><span></span>装修预算</button>
+			<div id="sandt-body">
+				<div>
+					<img src="img/sandt-body_1.png"/>
+					<p>复式装修技巧 让有限的空间得到拓展</p>
+					<span>有些人偏爱复式楼，复式楼给人感觉很特别，你知道复式装修有什么要点吗？</span>
+				</div>
+				<div>
+					<img src="img/sandt-body_2.png"/>
+					<p>客厅窗户风水禁忌 窗户上也有讲究</p>
+					<span>客厅窗户不仅仅要发挥出它实用效果，还需要留意风水知识。</span>
+				</div>
+				<div>
+					<img src="img/sandt-body_3.png"/>
+					<p>巴洛克建筑风格 追求华贵气魄</p>
+					<span>作为一种艺术形式的称谓，它是古典主义者在16世纪下半叶在意大利发起的。巴洛克是一种堕落瓦解的艺术！</span>
+				</div>
+				<div>
+					<img src="img/sandt-body_4.png"/>
+					<p>餐厅风水 助你增强食欲</p>
+					<span>餐厅风水不可掉以轻心。好的餐厅风水及搭配能增强我们的食欲。</span>
+				</div>
+			</div>
+			<div id="tip-bottom">
+				<button class="btn">换一批<span></span></button>
+				<button class="btn">更多装修知识<span></span></button>
+			</div>
+		</div>
+		<!--装修前中后三个圆-->
+		<div id="three">
+			<img src="img/three.jpg"/>
+			<span>装修前</span>
+			<span>装修中</span>
+			<span>装修后</span>
+		</div>
+		<!--装修问答-->
+		<div id="question">
+			<div class="til">
+				装修问答
+				<span>我要提问</span>
+			</div>
+			<div>
+				<input type="text" value=""/>
+				<span>输入关键字，搜索问答<img src="img/question.png"/></span>
+			</div>
+			<div>
+				<p>深圳经济适用房申请条件有哪些？？</p>
+				<span><em></em>经适保障房</span>
+				<span>2人回答</span>
+			</div>
+			<div>
+				<p>多功能折叠桌要怎么搭配？？</p>
+				<span><em></em>家具</span>
+				<span>1人回答</span>
+			</div>
+			<div>
+				<p>都有哪些厨房小常识？？</p>
+				<span><em></em>生活常识</span>
+				<span>2人回答</span>
+			</div>
+			<div>
+				<p>二手房贷款计算是怎样计算的？？</p>
+				<span><em></em>贷款类型/流程/利率</span>
+				<span>2人回答</span>
+			</div>
+			<button class="btn">换一批<span></span></button>
+			<button class="btn">更多装修问答<span></span></button>
+		</div>
+		<img src="img/a-d.jpg" class="a-d"/>
+		<!--体验馆-->
+		<div id="enjoy">
+			<p class="til">体验馆</p>
+			<div>
+				<p>南京站岔路口一号家体验馆</p>
+				<img src="img/enjoy_1.jpg"/>
+				<ul>
+					<li>服务电话： 15105148353</li>
+					<li>营业时间： 08:00--18:00</li>
+					<li>南京市东山镇武夷商城风尚阁04-111号</li>
+				</ul>
+				<span>发送到手机</span>
+			</div>
+			<div>
+				<p>南京站溧水一号家体验馆</p>
+				<img src="img/enjoy_2.jpg"/>
+				<ul>
+					<li>服务电话： 15105148353</li>
+					<li>营业时间： 08:00--18:00</li>
+					<li>溧水永阳镇毓秀路2-8号安阳花苑3-101</li>
+				</ul>
+				<span>发送到手机</span>
+			</div>
+			<div>
+				<p>南京站禄口一号家体验馆</p>
+				<img src="img/enjoy_3.jpg"/>
+				<ul>
+					<li>服务电话： 15105148353</li>
+					<li>营业时间： 08:00--18:00</li>
+					<li>江宁区殷华街28号（王子公馆售楼处旁）</li>
+				</ul>
+				<span>发送到手机</span>
+			</div>
+			<button class="btn">换一批<span></span></button>
+			<button class="btn">更多体验馆<span></span></button>
+		</div>
+		<!--一号家新闻-->
+		<div id="new">
+			<p class="til">一号家新闻</p>
+			<ul>
+				<li><em></em>住得更好是我的渴求：实用主义家装的胜利<span>11-01</span></li>
+				<li><em></em>万众瞩目11.11 家装主角登场<span>10-28</span></li>
+				<li><em></em>一号家居网支招：11.11都快来了 还焦虑吗？<span>10-28</span></li>
+				<li><em></em>11.11大战在即 一号家居网不惧挑战<span>10-27</span></li>
+				<li><em></em>11.11大节越逼越近，这次电商巨头们又有什么新花样？<span>10-25</span></li>
+			</ul>
+			<button class="btn">更多新闻<span></span></button>
+		</div>
+		<img src="img/a-d2.jpg" class="a-d"/>
+		<!--底部-->
+		<div id="foot">
+			<div>
+				<span>关于我们</span>
+				<em>.</em>
+				<span>服务保障</span>
+				<em>.</em>
+				<span>意见反馈</span>
+			</div>
+			<span><i></i>联系一号家：<em>4008-518-111</em></span>
+			<p>装房子，买家具家电，就上一号家居网</p>
+			<p>m.yihaojiaju.com</p>
+			<i></i>
+			<strong>电脑版</strong>
+			<i></i>
+			<strong>APP下载</strong>
+			<sup><img src="img/foot_4.png"/></sup>
+		</div>
+		
+	</div>
+	<script src="js/all.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
